@@ -1,0 +1,27 @@
+{
+    "name": "turingadmin/turing-annotation",
+    "description": "Annotation For ThinkPHP6",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "turingadmin\\annotation\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Xiaobin",
+            "email": "850009244@qq.com"
+        }
+    ],
+    "extra": {
+        "think": {
+            "services": [
+                "turingadmin\\annotation\\Service"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
